@@ -1,9 +1,8 @@
 import { FC, useEffect } from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import ProductPreview from "./components/products/ProductPreview";
 import { cartArray } from "./interfaces/Icart";
-import Cart from "./pages/cart/Cart";
+// import Cart from "./pages/cart/Cart";
 
 const App: FC = () => {
   useEffect(() => {
@@ -12,11 +11,8 @@ const App: FC = () => {
       localStorage.setItem("cartArray", JSON.stringify(cartArray));
     }
   }, []);
-  return (
-    <>
-      <Cart />
-    </>
-  );
+
+  return <Home />;
 };
 
 export default App;

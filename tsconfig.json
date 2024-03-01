@@ -20,11 +20,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "./src/**/*.ts",
-    "./src/**/*.tsx",
-    "src/components/layout/footer/Footer.tsx"
-, "src/utils/renderItems/RenderItems.tsx", "src/components/products/ProductPreview.tsx", "src/pages/Home.tsx", "src/pages/cart/RenderCartItem.tsx"  ],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

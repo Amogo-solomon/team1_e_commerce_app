@@ -1,7 +1,7 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import "./Footer.css";
 
-function Footer() {
+function Footer(): FC {
   return <div className="footer PrimaryBg">This is the footer</div>;
 }
 

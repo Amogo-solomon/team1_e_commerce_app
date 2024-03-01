@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Layout from "../components/layout/Layout";
 import Hero from "../components/hero/Hero";
 import Products from "../components/products/Products";

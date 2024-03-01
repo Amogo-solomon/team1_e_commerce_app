@@ -1,8 +1,9 @@
 import React from "react";
-import RenderItems from "../../utils/renderItems/RenderItems";
+
 import "./Products.css";
 import { ProductsData } from "../../assets/data/Products";
 import { Iitems } from "../../interfaces/Iitems";
+import RenderItems from "../../utils/renderItems/RenderItems";
 
 const Products = () => {
   return (
@@ -17,6 +18,7 @@ const Products = () => {
               itemPrice={item.itemPrice}
               id={item.id}
             />
+          
           )
         )}
       </div>
