@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PrimaryBg {
+  background-color: #074e37;
+}
+.SecondaryBg {
+  background-color: #86bc42;
+}
+.PrimaryTextColor {
+  color: #86bc42;
+}
+.SecondaryTextColor {
+  color: #074e37;
+}
+
+.headerContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.headerContainer ul {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.headerContainer ul > li {
+  list-style: none;
+  font-weight: bold;
+  color: white;
+}

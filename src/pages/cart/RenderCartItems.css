@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PrimaryBg {
+  background-color: #074e37;
+}
+.SecondaryBg {
+  background-color: #86bc42;
+}
+.PrimaryTextColor {
+  color: #86bc42;
+}
+.SecondaryTextColor {
+  color: #074e37;
+}
+
+.rendercartItems {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 2px;
+  border: 2px;
+  border-radius: 4px;
+}
+.rendercartItems img {
+  width: 40%;
+  mix-blend-mode: multiply;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+}
+
+.rendercartItems .cartItemsDetails {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.rendercartItems .cartItemsCancel {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38px;
+}
+
+.removeItem {
+  border: 1px solid whitesmoke;
+  padding: 12px;
+  border-radius: 100px;
+}
+.removeItem:hover {
+  cursor: pointer;
+}

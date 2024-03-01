@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PrimaryBg {
+  background-color: #074e37;
+}
+.SecondaryBg {
+  background-color: #86bc42;
+}
+.PrimaryTextColor {
+  color: #86bc42;
+}
+.SecondaryTextColor {
+  color: #074e37;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  padding: 12px;
+  /* position: absolute; */
+  bottom: 0;
+}

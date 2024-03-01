@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PrimaryBg {
+  background-color: #074e37;
+}
+.SecondaryBg {
+  background-color: #86bc42;
+}
+.PrimaryTextColor {
+  color: #86bc42;
+}
+.SecondaryTextColor {
+  color: #074e37;
+}
+.previewContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 450px;
+  padding: 8px;
+  background-color: #e0e0e0;
+  border: 1px;
+  border-radius: 5px;
+  /* background-color: red; */
+  margin: auto;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.previewContainer > div {
+  width: 60%;
+  /* background-color: green; */
+}
+.previewContainer .previewImage {
+  width: 30%;
+  mix-blend-mode: multiply;
+}
+
+.previewDescription {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 34px;
+  padding-left: 34px;
+}
+.productDesc {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 23px;
+  padding: 14px;
+}
+
+.addToCartContainer {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.increment_decrement {
+  /* background-color: red; */
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px;
+  border-radius: 6px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  /* background-color: red; */
+  text-align: start;
+}
+.increment_decrement button:hover,
+p:hover {
+  cursor: pointer;
+}
+.increment_decrement > button,
+p {
+  border: none;
+  outline: none;
+  padding: 2px 14px 2px 14px;
+  border-radius: 3px;
+  font-size: 23px;
+  background: transparent;
+}
+.addtoCartBtn {
+  border: none;
+  outline: none;
+  background-color: #222222;
+  border-radius: 3px;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 26px;
+  color: whitesmoke;
+}
+.addtoCartBtn:hover {
+  cursor: pointer;
+}
+.toggleCloseOpen {
+  border: 1px;
+  border-radius: 4px;
+  outline: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 12px;
+}
+.toggleCloseOpen:hover {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}

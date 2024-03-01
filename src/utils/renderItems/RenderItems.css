@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PrimaryBg {
+  background-color: #074e37;
+}
+.SecondaryBg {
+  background-color: #86bc42;
+}
+.PrimaryTextColor {
+  color: #86bc42;
+}
+.SecondaryTextColor {
+  color: #074e37;
+}
+
+.renderItemsContainer {
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 450px;
+  padding: 8px;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 1px 1px gainsboro;
+}
+.renderItemsContainer:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5),
+    -1px -1px 2px rgba(80, 78, 78, 0.5);
+}
+.renderItemsContainer:hover > .renderItemsImage img {
+  transform: scale(1.2);
+}
+.renderItemsImage {
+  width: 90%;
+  height: 40%;
+  margin: auto;
+}
+.renderItemsImage img {
+  object-fit: contain;
+  width: fit-content;
+}
+.renderItemsText {
+  width: 90%;
+  height: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 19px;
+}
+.renderItemsText button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.6s, color 0.6s;
+  padding: 8px;
+  border-radius: 4px;
+}
+.renderItemsText button:hover {
+  background-color: #074e37;
+  color: white;
+}

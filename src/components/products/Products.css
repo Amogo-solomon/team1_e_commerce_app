@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PrimaryBg {
+  background-color: #074e37;
+}
+.SecondaryBg {
+  background-color: #86bc42;
+}
+.PrimaryTextColor {
+  color: #86bc42;
+}
+.SecondaryTextColor {
+  color: #074e37;
+}
+
+.productsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding: 8px;
+  background-color: white;
+}
+.products {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  gap: 21px;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.renderItemsImage img {
+  object-fit: contain;
+  width: fit-content;
+}
+.renderItemsText {
+  width: 90%;
+  height: 55%;
+  margin: auto;
+}
